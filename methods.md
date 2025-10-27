@@ -1,6 +1,7 @@
-*[Back to the front page](./index.md/)*
-
-# Methods
+---
+layout: page
+title: Methods
+---
 
 ## Data collection
 

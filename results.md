@@ -1,6 +1,7 @@
-*[Back to the front page](./index.md/)*
-
-# Results
+---
+layout: page
+title: Model Reports
+---
 
 ## Logistic Regression
 
