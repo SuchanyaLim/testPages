@@ -8,11 +8,11 @@ title: Model Reports
 As the logistic regression model is implemented using statsmodels, it allows us to gather more detailed metrics about the model.
 For example, using p-values with the significance level of 0.05 we can see that out of the features, **"balance"** and **"f0_std"** are statistically significant, with a p-value of less than or equal to 0.05. The coefficient of "balance" is also clearly the most significant. This implies that TED-speakers have lower balance-values, meaning that their speeches contain more pauses. The coefficient of "f0_std" is much less significant, but it does imply that TED-speakers tend to have more pitch variability.
 
-![logreg_coef_pval_graph](./images/logreg_coef_pval_graph.png)
+<img src="images/logref_coef_pval_graph.png" alt="Logistic Regression Coefficient p-value Graph" height="200">
 
 The confusion matrix of the model shows that the model does make a significant amount of wrong classifications, which tend to be equally distributed between the classes. The overall accuracy **0.6836 ± 0.0253** of the model is decent.
 
-![logreg_confusion_matrix](./images/logreg_confusion_matrix.png)
+<img src="images/logref_confusion_matrix.png" alt="Logistic Regression Confusion Matrix" height="200">
 
 The ROC curve gives a slightly better perspective, with an AUC of **0.76 ± 0.03**, suggesting a good ability to distinguish between TED and non-TED talks.
 
