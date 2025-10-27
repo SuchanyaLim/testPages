@@ -40,8 +40,6 @@ The biggest clues were:
 
 So, I guess you could say that great speakers sound a little more like music. They use rhythm and melody to guide attention and emotion.
 
-*For readers interested in a more detailed report of the data science, check out [results](./results.md/)*.
-
 ## So, What Could This Mean?
 
 Why do pauses and pitch variation matter? Studies suggest that speakers who vary both pitch and pacing are often perceived as more competent and confident, and their audiences are more likely to remember what they say.
