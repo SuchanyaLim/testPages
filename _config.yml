@@ -1,0 +1,4 @@
+title: Test Page blog theme
+plugins:
+  - jekyll-remote-theme
+remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll
