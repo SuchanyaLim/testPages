@@ -4,7 +4,7 @@ title: How to Speak Like a TED Talker
 date: 2025-10-25 09:00:00
 ---
 
-"It's not what you say, it's how you say it" is something we've all heard at some point, usually when someone is trying to tell us that we sound too blunt or too nervous. We often assume it refers to *what* we're saying: our word choice, or maybe our body language. But what if the key was actually in how you *sound* - the pacing of your sentences, the variance in your pitch, maybe even how often and when you pause?
+"It's not what you say, it's how you say it" is something we've all heard at some point, usually when someone is trying to tell us that we sound too blunt or too nervous. We often assume it refers to *what* we're saying: our word choice, or maybe our body language. But what if the key was actually in how we *sound* - the pacing of our sentences, the variance in our pitch and tone, maybe even how often and when we pause?
 
 ## The Melody of Speech
 
@@ -12,13 +12,15 @@ Speech science has a word for this: prosody.
 
 Prosody is derived from the ancient Greek word *prosōidía* which means “a song sung to music” or “the tone or accent of a syllable". Prosody is the music of language; the rise and fall of your voice, the rhythm of your sentences, the pattern of pauses and emphasis that gives speech emotion.
 
-We also intuitively know prosody matters. Some speakers can make even the most fascinating topic feel dry, whereas others can make the most boring topics interesting. Studies have shown that prosodic features can even affect listener perception of speaker certainty, and honesty. But can we measure this?
+We also intuitively know prosody matters. Some speakers can make even the most fascinating topic feel dry, whereas others can make the most boring topics interesting. Studies have shown that prosodic features can even affect listener perception of speaker certainty and honesty. 
 
-Luckily, speech scientists have been studying prosody for ages. They use specialized tools to measure speech signals and analyze features such as intonation, stress, rhythm, pitch, and loudness. We can use these same methods to try to see what makes professional speakers so engaging
+But can we measure this?
+
+Luckily, speech scientists have been studying prosody for ages. They use specialized tools to measure speech signals and analyze features such as intonation, stress, rhythm, pitch, and loudness. We can use these same methods to try to see what makes professional speakers so engaging.
 
 ## Can You Hear a TED Talk?
 
-We turned to TED Talks for this. TED Talks are often recognized for being professional and polished speeches; they're sometimes described as clear, persuasive, and emotionally resonant. So we asked:
+For our purposes, we turned to TED Talks. TED Talks are often recognized for being professional and polished speeches; they're sometimes described as clear, persuasive, and emotionally resonant. So we asked:
 
 > Do professional speakers, like those on the TED stage, actually sound different from the rest of us? and can we sound more like them?
 
@@ -38,13 +40,13 @@ The biggest clues were:
 
 So, I guess you could say that great speakers sound a little more like music. They use rhythm and melody to guide attention and emotion.
 
-*For readers interested in a more detailed report of the findings, check out [results](./results.md/)*.
+*For readers interested in a more detailed report of the data science, check out [results](./results.md/)*.
 
-## What Could This Mean?
+## So, What Could This Mean?
 
 Why do pauses and pitch variation matter? Studies suggest that speakers who vary both pitch and pacing are often perceived as more competent and confident, and their audiences are more likely to remember what they say.
 
-Pauses, on the other hand, give the audience time to process an idea which can also make the speaker appear more confident.
+Pauses, on the other hand, can give the audience time to process an idea which can also make the speaker appear more confident.
 
 These small changes can combine to create a TED Talk feel, which usually sounds more like the speaker is telling a story compared to reading a script.
 
@@ -57,7 +59,7 @@ So, how can you sound more like a TED Talker?
 
 Small changes in these areas can make a difference in how your speech is percevied.
 
-While we didn't find a 'cheat code' for sounding like a TED Talker, our project shows that there are measurable differences. We hope that the insights you got from this article will help you see (or hear) speech differently.
+While we couldn't find a 'cheat code' for sounding like a TED Talker, our project shows that there are measurable differences. We hope that the insights you got from this article will help you see (or hear) speech differently.
 
 ---
 
