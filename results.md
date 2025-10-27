@@ -8,15 +8,15 @@ title: Model Reports
 As the logistic regression model is implemented using statsmodels, it allows us to gather more detailed metrics about the model.
 For example, using p-values with the significance level of 0.05 we can see that out of the features, **"balance"** and **"f0_std"** are statistically significant, with a p-value of less than or equal to 0.05. The coefficient of "balance" is also clearly the most significant. This implies that TED-speakers have lower balance-values, meaning that their speeches contain more pauses. The coefficient of "f0_std" is much less significant, but it does imply that TED-speakers tend to have more pitch variability.
 
-<img src="images/logref_coef_pval_graph.png" alt="Logistic Regression Coefficient p-value Graph" height="200">
+<img src="images/logreg_coef_pval_graph.png" alt="Logistic Regression Coefficient p-value Graph" height="200">
 
 The confusion matrix of the model shows that the model does make a significant amount of wrong classifications, which tend to be equally distributed between the classes. The overall accuracy **0.6836 ± 0.0253** of the model is decent.
 
-<img src="images/logref_confusion_matrix.png" alt="Logistic Regression Confusion Matrix" height="200">
+<img src="images/logreg_confusion_matrix.png" alt="Logistic Regression Confusion Matrix" height="200">
 
 The ROC curve gives a slightly better perspective, with an AUC of **0.76 ± 0.03**, suggesting a good ability to distinguish between TED and non-TED talks.
 
-![logreg_roc_curve](./images/logreg_roc_curve.png)
+<img src="images/logreg_roc_curve.png" alt="Logistic Regression ROC Curve" height="200">
 
 Lastly, the Pseudo R-squared value of **0.1479 ± 0.0103** indicates a moderate explanatory power.
 
@@ -24,9 +24,11 @@ Lastly, the Pseudo R-squared value of **0.1479 ± 0.0103** indicates a moderate 
 
 Interestingly, the feature importance values of the random forest model are noticeably different to the logreg model's coefficients. Mainly, the importance of **"f0_std"** is clearly the largest, with **"balance"** coming second at a significantly lower value. The other two remain relatively insignificant. This indicates that, according to the random forest, pitch variability plays a dominant role in partitioning the data across the trees.
 
-![randomforest_feature_importance](./images/randomforest_feature_importance.png)
+<img src="images/randomforest_feature_importance.png" alt="Random Forest Feature Importance Graph" height="200">
 
 The confusion matrix is quite similar to the logreg model, but there is a noticeable drop in overall accuracy, down to around **0.6488 ± 0.0198**.
+
+<img src="images/randomforest_confusion_matrix.png" alt="Random Forest Confusion Matrix" height="200">
 
 ![randomforest_confusion_matrix](./images/randomforest_confusion_matrix.png)
 
